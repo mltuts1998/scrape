@@ -1,0 +1,19 @@
+{
+  "name": "JhabarScraper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "post without password",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "JhabarScraper"
+  },
+  "permissions": [
+  	"http://parents.msrit.edu/",
+    "tabs"
+  ]
+}
